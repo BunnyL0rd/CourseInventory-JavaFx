@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="CourseInventory_BrianChiu.jnlp">
+  <information>
+    <title>CourseInventory_BrianChiu</title>
+    <vendor>Bunny Lord's Laptop</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="CourseInventory_BrianChiu.jar" size="104446" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="CourseInventory_BrianChiu" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="chiubri.CourseInventory"  name="CourseInventory_BrianChiu" />
+  <update check="always"/>
+</jnlp>
